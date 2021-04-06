@@ -1,0 +1,94 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+}
+
+* button{
+	border: 2px solid black;
+	border-radius : 3px;
+	padding : 5px;
+	color : white;
+	background-color : #990000;
+	font-size: 16px;
+}
+
+* button:hover{
+	color : black;
+	background-color : #99eeee;
+	border: 2px solid black;
+	cursor: pointer;
+}
+body{
+	background-color: #dddddd;
+}
+#root{
+	width : 1000px;
+	margin : auto;
+}
+
+header{
+	font-size: 32px;
+	width : 100%;
+	background-color : #990000;
+	height : 90px;
+}
+
+header  h1{
+	
+	width : 250px;
+	text-align : left;
+	margin: 0  0 0 10px;
+	visibility: inline;
+	float : left;
+	
+}
+
+header  h1 a{
+	color : black;
+}
+
+header #nav {
+	text-align : right;
+	margin : 0 ;
+	height : 25px;
+	padding : 0;
+}
+
+header #nav #in{
+	padding-top : 50px;
+	
+}
+header #nav #in a{
+	margin-right : 15px;
+	border: 2px solid black;
+	border-radius : 3px;
+	padding : 5px;
+	color : white;
+	background-color : #990000;
+	font-size: 16px;
+}
+
+header #nav #in a:hover{
+	color : black;
+	background-color : #99eeee;
+	border: 2px solid black;
+}
+
+header::after { 
+	content: ""; 
+	display: block; 
+	clear: both 
+}
+
+table #td1{
+	vertical-align:top;
+	width : 130px;
+	padding-bottom : 5px;
+}
+
+table #td2{
+	vertical-align:top;
+}
+#div_file{
+	height : 50px;
+}

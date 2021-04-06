@@ -1,0 +1,146 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+}
+
+* button{
+	border: 2px solid black;
+	border-radius : 3px;
+	padding : 5px;
+	color : white;
+	background-color : #990000;
+	font-size: 16px;
+}
+
+* button:hover{
+	color : black;
+	background-color : #99eeee;
+	border: 2px solid black;
+	cursor: pointer;
+}
+body{
+	background-color: #dddddd;
+}
+#root{
+	width : 1000px;
+	margin : auto;
+}
+
+header{
+	font-size: 32px;
+	width : 100%;
+	background-color : #990000;
+	height : 90px;
+}
+
+header  h1{
+	
+	width : 250px;
+	text-align : left;
+	margin: 0  0 0 10px;
+	visibility: inline;
+	float : left;
+	
+}
+
+header  h1 a{
+	color : black;
+}
+
+header #nav {
+	text-align : right;
+	margin : 0 ;
+	height : 25px;
+	padding : 0;
+}
+
+header #nav #in{
+	padding-top : 50px;
+	
+}
+header #nav #in a{
+	margin-right : 15px;
+	border: 2px solid black;
+	border-radius : 3px;
+	padding : 5px;
+	color : white;
+	background-color : #990000;
+	font-size: 16px;
+}
+
+header #nav #in a:hover{
+	color : black;
+	background-color : #99eeee;
+	border: 2px solid black;
+}
+
+header::after { 
+	content: ""; 
+	display: block; 
+	clear: both 
+}
+
+#container table{
+	width : 900px;
+	margin : auto;
+	margin-top : 50px;
+	margin-bottom : 50px;
+	border-collapse: collapse;
+}
+#container table th{
+	border-top : 4px solid #990000;
+	border-bottom : 1px solid #666666;
+}
+
+#container table td{
+	height : 50px;
+}
+
+#container table td#td_title a{
+	font-weight: bold;
+	color : black;
+}
+
+#container table td#td_title a:hover{
+	color : #990000;
+}
+#td_bno {
+	width : 70px;
+	text-align : center;
+}
+
+#td_title {
+	width : 610px;
+}
+
+#td_writer {
+	width : 100px;
+}
+
+#td_regdate {
+	width : auto;
+	text-align : center;
+}
+
+#container table #tr_list{
+	border-bottom : 1px solid #666666;
+}
+
+.search{
+	width : 370px;
+	margin :  auto;
+}
+
+#div_list{
+	display : block;
+	width : 470px;
+	height : 50px;
+	margin :auto;
+}
+
+#div_list ul li {
+	list-style: none; 
+	float: left; 
+	padding: 6px;
+}
+
